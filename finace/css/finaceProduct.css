@@ -1,0 +1,109 @@
+
+.productImg{
+	height: auto;
+	text-align: center;
+}
+.SectionOne_listPro{
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+
+.mainTwo{
+	width: 90%;
+	margin-top: 1.5%;
+	
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+.tabUl{
+	/*margin:0;
+	padding:0;*/
+	list-style:none;
+	width:100%;
+	text-align: center;
+	height: 45px;
+	
+}
+.tabUl li{	
+	width:12%;
+	height:40%;
+	background:#ccc;
+	color:#fff;
+	/*border:1px solid red; */
+	cursor:pointer; 
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	font-size: 130%;
+}
+
+.tabContent{
+	/*border: 1px solid green;*/
+}
+
+.on{display:block;}
+.tabUl li.cur{background:darkorange;}
+
+.block{
+	border: 1px solid darkorange;
+}
+
+.block_middle .midTextBig{
+	font-size: 25px;
+	color: darkorange;
+	font-weight: bold;
+}
+.block_bottom{
+	height: 100%;
+}
+
+/*.block_bottom>.pro_btn{
+	float: left;
+	width: 22%;
+	height: 100%;
+	border-radius:8%;
+	background: darkorange;
+	text-align: center;
+	color: white;
+}*/
+
+
+.block_bottom>.pro_btn {
+    /* font-size: 70%; */
+}
+.block_bottom>.pro_btn {
+    padding: 2%;
+}
+
+.pname{
+	float: left;padding-left: 0%;margin-left: 2%;
+}
+
+.pro_name {
+	padding-left: 0%; 
+}
+
+.rate{
+	float: left;padding-left: 0%;width: 15%; margin-left: 2%;
+}
+.money{
+	float: left; margin-left: 2%;width:20%; padding-left: 0%;
+}
+.day{
+	float: left; width: 4%;padding-left: 0; margin-left:2%;line-height: 100%;
+}
+.bot{
+	width: 55%; float: left;	
+	margin-bottom: 1%;
+}
+.bar{
+	width: 35%;
+}
+
+.pro_name {
+	padding-left: 0%; 
+	
+}

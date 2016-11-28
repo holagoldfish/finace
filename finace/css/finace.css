@@ -64,6 +64,11 @@
 	cursor: pointer;
 }
 
+.menuUl a{
+	text-decoration: none;
+	color: black;
+}
+
 .headerTell{
 	float: left;
 	width: 15%;
@@ -437,7 +442,7 @@
 	padding-top: 8px;
 }
 
-.block_middle .midTextBig{
+/*.block_middle .midTextBig{
 	font-size: 25px;
 	color: darkorange;
 	font-weight: bold;
@@ -453,6 +458,26 @@
 	width: 42%;
 }
 .block_middle .midDay{
+	width:16%;
+}*/
+
+
+.midTextBig{
+	font-size: 25px;
+	color: darkorange;
+	font-weight: bold;
+}
+
+.midTextSmall{
+	font-size: 14px;
+}
+.midRate{
+	width: 42%;
+}
+.midMoney{
+	width: 42%;
+}
+.midDay{
 	width:16%;
 }
 
