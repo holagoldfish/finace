@@ -1,0 +1,204 @@
+.bodyContainer{
+	/*width: 320px;*/
+	width: 100%;
+}
+
+.bodyHeader{
+/*	background-color: #5F9EA0;*/
+	line-height: 50px;	
+	height: 50px;
+}
+
+.headerLogo,.headerTell{
+	display: none;
+}
+
+.headerNav{
+	width: 100%;
+}
+
+.phoneMenu{
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5%;
+    border: 1px solid #FF0000;
+    /*width: 100%;
+    height: 100%;*/
+   width: 30%;
+   margin: 0 auto;
+   background-color:#F7A21E;   /* 【TODO】:调整颜色*/
+}
+
+.menuUl{
+	display: none;
+	width: 100%;
+	color: white;
+	padding:10px;
+	background-color:#F7A21E;;
+}
+
+.headerNav:hover>.menuUl{
+	display: block;
+	position:fixed;
+	z-index: 2;
+}
+
+.headerNav li{
+	text-align: center;  
+	display:block;             /* 【TODO】:display:none*/
+	padding: 0px;
+	line-height: 24px;
+	padding: 10px;
+	font-size: 19px;
+}
+
+
+.mainOne{
+	width: 100%;
+	/*line-height: 450px;*/ /*todo*/	
+	height: 350px;
+}
+
+
+.mainOne-left{
+	display: none;
+}
+
+.mainOne-right{
+	width: 100%;
+	height: 350px;
+}
+
+
+.oneRightLogin{
+	margin-top: 5%;
+	height: 70%;
+	 font-size: 160%; 
+	 padding: 3%; 
+}
+
+.oneRightLogin p{
+	  margin-top: 3%;
+	  padding-top: 1%;  
+}
+
+
+
+.mainTwo-warp{
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 6%;
+	width: 100%;
+	border: 1px solid red;	
+}
+
+.warp-title{
+	padding-top: 2%;
+}
+
+
+.warp-title,.warp-content{
+	width: 100%;
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.warp-content{
+	margin-top: 2%;
+}
+.warp-content .warpDiv{
+	float: left;
+	width: 50%;
+	padding: 1%;
+}
+
+.warp-content img{
+	width: 40%;
+	height: 4%;
+	padding: 3%;
+}
+.con{
+	font-size: 15px;
+}
+.des{
+	margin-top: 0.8%;
+	font-size: 10px;
+	padding: 1%;
+}
+
+
+.mainThree {
+   height: 100%;
+   overflow:hidden;zoom:1;
+}
+
+.threeLeft{
+	margin-bottom:-10000px;
+padding-bottom:10000px;
+}
+
+
+.threeRight {
+    width: 85%;
+}
+
+.mainTwo-warp {
+    border: 0px;
+}
+
+.tjProTitle{
+   display:none;
+}
+.proBlock{
+	width: 100%;
+}
+
+
+.finaceNav {
+width: 100%;
+margin-left: 0%;
+}
+
+.finaceNav img{
+	visibility:hidden;
+}
+
+.finaceNav p {
+font-size: 20px;
+}
+
+.block_top .pro_name {
+    font-size: 110%;
+}
+
+.block_middle .midTextBig {
+    font-size: 110%;
+}
+
+
+.block_bottom>.pro_btn {
+    width: 30%;
+    font-size: 70%;
+    padding-top: 5%;
+     margin-left: 10%;
+}
+
+.bank {
+    margin-top: 0px;
+}
+
+.bank div {
+    margin-top: 10%;
+}
+
+.footer-ul li {
+    padding: 0px;
+}
+.footer {
+    margin-top: 0px;
+}

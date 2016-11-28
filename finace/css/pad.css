@@ -1,0 +1,290 @@
+.bodyContainer{
+    width: 100%;
+}
+
+.bodyHeader{
+	/*background-color:#BCEE68;*/
+	line-height: 50px;
+	height: 50px;
+}
+
+.headerLogo{
+	float: left;
+	width: 20%;
+}
+
+.headerNav{
+	float: left;
+	width: 55%;
+}
+
+.headerNav ul>li{
+	float: left;
+	margin-left: 4%;
+}
+
+.headerTell{
+	float: right;
+	width: 25%;
+}
+
+
+.mainOne{
+	width: 100%;
+	/*line-height: 480px; *//*todo*/
+	height: 480px;
+}
+
+.mainOne-left{
+	width: 62%;
+}
+
+
+.boxTip {
+font-size: 130%;
+}
+
+
+.mainOne-right{
+	width: 38%;
+	height: 480px;	
+	font-size: 80%; 
+    padding-top: 5%;  
+}
+
+
+.oneRightLogin{
+	height: 75%;
+    font-size: 160%; 
+    padding-top: 5%;  
+}
+
+.oneRightLogin p{
+	  margin-top: 3%;
+	  padding-top: 6%;  
+}
+
+.loginBtn {
+	margin-top: 25%;
+	padding: 4%;
+}
+
+.regBtn {
+margin-top: 8%;
+}
+
+.warp-title,.warp-content{
+	width: 85%;
+	font-size: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.warp-content{
+	margin-top: 2%;
+}
+.warp-content .warpDiv{
+	float: left;
+	width: 25%;
+}
+
+.warp-content img{
+	width: 40%;
+	height: 4%;
+	padding: 4%;
+}
+.con{
+	font-size: 15px;
+}
+.des{
+	margin-top: 0.8%;
+	font-size: 10px;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+.mainThree{
+	width: 100%;
+	margin-top: 3%;
+	height:640px;
+}
+
+.threeLeft{
+	width: 15%;
+	float: left;
+	height: 100%;
+}
+
+.threeRight{
+	width: 80%;
+	float: left;
+	height: 100%;	
+}
+
+
+.finaceNav{
+	height: 100%;
+	width: 90%;
+	text-align: center;
+	margin-left: 10%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	background-color:darkorange;	
+	border-radius: 5%;
+	border-top-right-radius: 0%;
+	border-bottom-right-radius: 0%;
+}
+
+
+
+.finaceNav img{
+	color: white;
+	padding-top:30%;
+	padding-bottom: 100%;
+	margin-bottom: 50%;
+	font-size: 20px;
+}
+
+.finaceNav p{
+	color: white;
+	font-size: 25px;
+	padding-bottom: 10%;
+}
+
+.finaceNav>p:hover{	
+	-webkit-transform: scale(0.8,0.8) rotate(360deg);
+	-moz-transform: scale(0.8,0.8) rotate(360deg);
+	-o-transform: scale(0.8,0.8) rotate(360deg);
+	-ms-transform:scale(0.8,0.8) rotate(360deg);
+	transform: scale(0.8,0.8) rotate(360deg);
+	
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	cursor: pointer;
+}
+
+.finacePro{
+	width: 100%;
+	height: 100%;
+}
+
+
+.proTitle{
+	text-align: right;	
+	background:darkorange;
+	padding-right: 4%;
+	cursor: pointer;
+    color: white;
+    height:40px;
+    line-height:40px;
+}
+
+.tjProTitle{
+	float: left; 
+	padding-left: 20px;
+	font-size: 30px; 
+	font-weight: bold;
+}
+
+.proInfo{
+	width: 100%;	
+	height: 600px;
+}
+
+.proBlock{
+	width: 50%;
+	height:33.3%;
+	float: left;
+}
+
+.block_top,.block_middle,.block_bottom{
+	height: 33.3%;
+	width: 100%;
+	/*border: 1px solid silver;*/
+	text-align: center;
+}
+
+.block_top .pro_name{
+	width: 70%;
+	float: left;
+/*	border: 1px solid red;*/
+	line-height: 65px;
+	/*padding-left: 5%;*/
+	font-size: 110%;
+	text-align: left;
+}
+
+.block_top .pro_img{	
+	float:right;
+	width: 65px;
+	height: 65px;
+	/*border: 1px solid red;*/
+}
+
+.block_middle{
+}
+.block_middle>div{
+	width: 33.2%;
+	/*border: 1px solid green;*/
+	float: left;
+	height: 100%;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.block_middle .midTextBig{
+	font-size: 100%;
+}
+
+.block_middle .midTextSmall{
+	font-size: 14px;
+}
+.block_middle .midRate{
+	width: 42%;
+}
+.block_middle .midMoney{
+	width: 42%;
+}
+.block_middle .midDay{
+	width:16%;
+}
+
+
+
+.block_bottom .progressBar{
+	float: left;
+	width: 55%;
+	height: 8px;
+	border-radius: 8px;
+	margin-top: 14px;
+	position: relative;
+	margin-left: 5%;
+}
+
+
+
+.progressBar>div{
+	position: absolute;
+    top:0;
+    left: 0;
+    z-index: 5;
+    background:darkorange;
+    height: 7px;
+    width: 20%;
+}
+
+.progressBar p{
+	margin-top: 4%;
+	font-size: 60%;
+}
+
+.block_bottom>.pro_btn{
+	font-size: 70%;
+}
